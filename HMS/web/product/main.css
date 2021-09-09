@@ -165,7 +165,40 @@
         background: #2196f3;
         width: 100px;
     }
-    
+    .tt-product{
+        margin-top: 0;
+        background-color: #0d2d6c;
+        color: #fff;
+    }
+    .baohanh{
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+    }
+    .baohanh h2{
+        padding: 10px;
+        height: 100%;
+        cursor: pointer;
+    }
+    .tinhnang{
+        padding-top: 30px;
+    }
+    .tt-main{
+        padding-top: 30px;
+    }
+    .tt-mains{
+        padding-top: 30px;
+        display: none;
+    }
+    .tn1{
+        background-color: #0d2d6c;
+        color: #b5d351;
+        font-weight: bold;
+    }
+    table tr,td{
+        border: solid 2px white;
+        padding: 5px;
+    }
     footer {
         background: rgba(24, 38, 84, 0.95);
         color: #fff;
