@@ -166,6 +166,34 @@ select {
     width: 100px;
 }
 
+footer {
+    background: rgba(24, 38, 84, 0.95);
+    color: #fff;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3rem;
+}
+
+.figure-footer {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+.content-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.figure-footer img {
+    width: 100%;
+}
+
 @media (max-width: 991px) {
     header,
     header.sticky {
