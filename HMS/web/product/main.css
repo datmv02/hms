@@ -165,40 +165,69 @@
         background: #2196f3;
         width: 100px;
     }
-    .tt-product{
+    
+    .tt-product {
         margin-top: 0;
         background-color: #0d2d6c;
         color: #fff;
+        padding-bottom: 2rem;
     }
-    .baohanh{
+    
+    .baohanh {
         display: flex;
         flex-wrap: wrap;
-        height: 100%;
+        height: max-content;
+        margin-top: 1.5rem;
     }
-    .baohanh h2{
-        padding: 10px;
+    
+    .base {
+        padding: 1.2rem;
         height: 100%;
         cursor: pointer;
     }
-    .tinhnang{
-        padding-top: 30px;
-    }
-    .tt-main{
-        padding-top: 30px;
-    }
-    .tt-mains{
-        padding-top: 30px;
-        display: none;
-    }
-    .tn1{
+    
+    .base.active {
+        /* padding: 1rem; */
         background-color: #0d2d6c;
-        color: #b5d351;
-        font-weight: bold;
+        color: #fff;
     }
-    table tr,td{
+    
+    .tinhnang {
+        padding-top: 3rem;
+    }
+    
+    .tt-main {
+        padding-top: 3rem;
+    }
+    
+    .icon {
+        padding-bottom: 2rem;
+    }
+    
+    .fa {
+        padding-right: 1rem;
+    }
+    
+    .ct {
+        padding-bottom: 2rem;
+    }
+    
+    .ct p {
+        padding: 1rem 0;
+    }
+    
+    .thong-so-main {
+        padding-top: 3rem;
+        display: none;
+        margin: auto;
+    }
+    
+    table tr,
+    td {
         border: solid 2px white;
         padding: 5px;
     }
+    
     footer {
         background: rgba(24, 38, 84, 0.95);
         color: #fff;
