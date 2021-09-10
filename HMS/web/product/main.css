@@ -320,6 +320,9 @@
         .menu.active {
             left: 0;
         }
+        header ul li{
+           padding: 0;
+        }
         header ul li a {
             color: #fff;
             font-size: 1.2rem;
@@ -354,6 +357,13 @@
     } */
         .logo {
             display: none;
+        }
+        .baohanh{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        .baohanh .box-title h2{
+            font-size: 1.5rem;
         }
         .footer {
             display: grid;
