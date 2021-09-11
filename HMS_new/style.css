@@ -3,17 +3,18 @@
     padding: 0;
 }
 
-.container {
+
+/* .container {
     width: 100%;
     margin-right: auto;
     margin-left: auto;
     padding-left: 5px;
     padding-right: 5px;
-}
+} */
 
 header {
     /* background: rgba(24, 38, 84, 0.95); */
-    position: fixed;
+    /* position: fixed; */
 }
 
 header ul {
