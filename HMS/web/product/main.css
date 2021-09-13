@@ -95,7 +95,7 @@
     }
     
     .product {
-        min-height: 100vh;
+        min-height: 50vh;
         position: relative;
         border-radius: 30px;
         padding-top: 40px;
@@ -124,7 +124,10 @@
         grid-template-columns: 3fr 2fr 2fr;
         grid-gap: 40px;
     }
-    
+    .product-img-main img{
+        width: 35rem;
+        height: 25rem;
+    }
     .product-form .box {
         background-color: #b5d351;
         height: max-content;
