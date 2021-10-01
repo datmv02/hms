@@ -251,6 +251,14 @@ ul {
   table{
     width: 100%;
   }
+  header .logo,header.sticky .logo{
+    font-size: 30px;
+    margin: 0;
+  }
+  header{
+    display: flex;
+    flex-direction: row;
+  }
   header,
   header.sticky {
     padding: 20px 50px;
@@ -258,11 +266,11 @@ ul {
   }
   .menu {
     position: fixed;
-    top: 3.5rem;
+    top: 4.4rem;
     left: -100%;
     display: block;
     text-align: center;
-    width: 70%;
+    width: 80%;
     height: 100vh;
     text-align: left;
     padding-left: 10%;
@@ -322,6 +330,7 @@ ul {
 }
 .thong-so-main{
   margin: auto;
+  display: none;
 }
   .title-none{
     display: block;
