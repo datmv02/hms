@@ -22,6 +22,7 @@ header {
   padding: 40px 100px;
   z-index: 1000;
   transform: 0.5;
+  text-align: left;
 }
 
 .header-main {
@@ -94,15 +95,7 @@ header ul li:hover a {
   margin-top: 30px;
   margin-bottom: 1rem;
 }
-.img-fluid{
-  transform: scale(1);
-  transition: ease 1s;
-}
 
-.img-fluid:hover{
-  transform: scale(1.5);
-  transition: ease 1s;
-}
 .thongtin{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -156,6 +149,24 @@ select {
 }
 .thong-tin-main{
   
+}
+.baohanh {
+  display: flex;
+  flex-wrap: wrap;
+  height: max-content;
+  margin-top: 1.5rem;
+}
+
+.base {
+  padding: 1.2rem;
+  height: 100%;
+  cursor: pointer;
+}
+
+.base.active {
+  /* padding: 1rem; */
+  background-color: #a9b3c9;
+  color: #111;
 }
 .title-none{
   display: none;
@@ -312,9 +323,6 @@ ul {
 .thong-so-main{
   margin: auto;
 }
-  .logo {
-    display: none;
-  }
   .title-none{
     display: block;
   }
