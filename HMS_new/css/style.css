@@ -208,14 +208,14 @@ ul {
   .toggle {
     width: 2rem;
     height: 2rem;
-    background: url(./img/menu.png);
+    background: url(../img/menu.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 1.8rem;
     cursor: pointer;
   }
   .toggle.active {
-    background: url(./img/close.png);
+    background: url(../img/close.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 1.8rem;
